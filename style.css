@@ -131,7 +131,7 @@ body {
     right: 0;
     background-color: #333;
     padding: 2rem 0;
-    border-radius: 0 1.5625rem 0 1.5625rem;
+    border-radius: 0 0 0 1.5625rem;
     font-size: 1.5rem;
     z-index: 1000;
     box-shadow: 0 0 2rem #1e1e1e;
@@ -374,11 +374,11 @@ p {
     body {
         display: flex;
         flex-direction: column;
-        height: 160vh;
+        height: calc(34rem + 100vh);
         padding: 0;
     }
     .desktop-header {
-        height: 60vh;
+        height: 34rem;
         background-color: #ffffff00;
         border-color: #ffffff00;
         overflow: hidden;
